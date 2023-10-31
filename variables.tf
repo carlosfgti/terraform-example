@@ -1,0 +1,19 @@
+variable "image" {
+  type = string
+  default = "debian-cloud/debian-10"
+}
+
+variable "tag" {
+  type = string
+  default = "terraform"
+}
+
+variable "username" {
+  type = string
+  default = "onepet"
+}
+
+variable "github_token" {
+  type = string
+  default = "token"
+}
