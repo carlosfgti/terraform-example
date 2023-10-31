@@ -10,7 +10,7 @@ variable "tag" {
 
 variable "username" {
   type = string
-  default = "onepet"
+  default = "carlos"
 }
 
 variable "github_token" {
