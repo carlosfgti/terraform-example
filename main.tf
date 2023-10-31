@@ -26,7 +26,7 @@ provider "google" {
 resource "google_compute_instance" "terraform_test" {
   count = 1
   name = "terraform${count.index + 1}"
-  machine_type = "n2-highcpu-8"
+  machine_type = "e2-small"
   zone = "us-east1-c"
 
   boot_disk {
